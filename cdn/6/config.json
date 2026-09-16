@@ -94,10 +94,32 @@
           "bbox": {
             "left": "0.0%",
             "right": "78.2%",
-            "top": "0.0%",
+            "top": "5.3%",
+            "bottom": "45.8%",
+            "width": "21.8%",
+            "height": "48.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "widgetId": "widget_17",
+          "bbox": {
+            "left": "0.0%",
+            "right": "78.2%",
+            "top": "54.9%",
             "bottom": "0.0%",
             "width": "21.8%",
-            "height": "100.0%"
+            "height": "45.1%"
           },
           "setting": {
             "autoProps": {
@@ -105,9 +127,29 @@
               "right": true,
               "top": true,
               "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
+            }
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_22",
+          "bbox": {
+            "left": "0.0%",
+            "right": "76.3%",
+            "top": "0.7%",
+            "bottom": "92.7%",
+            "width": "23.8%",
+            "height": "6.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
           }
         }
       },
@@ -115,7 +157,9 @@
         "0",
         "3",
         "4",
-        "5"
+        "5",
+        "6",
+        "7"
       ]
     },
     "layout_1": {
@@ -145,33 +189,10 @@
             "hCenter": false
           },
           "isPending": true
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_20",
-          "bbox": {
-            "left": "0.0%",
-            "right": "87.9%",
-            "top": "0.9%",
-            "bottom": "89.0%",
-            "width": "12.1%",
-            "height": "10.1%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
         }
       },
       "order": [
-        "0",
-        "1"
+        "0"
       ]
     },
     "layout_6": {
@@ -240,45 +261,25 @@
     "layout_8": {
       "type": "FIXED",
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_17",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "48.8%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "51.3%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
         "1": {
           "type": "WIDGET",
           "widgetId": "widget_16",
           "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "61.1%",
-            "width": "100.0%",
-            "height": "38.9%"
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
           },
           "setting": {
             "autoProps": {
               "right": false,
-              "left": true,
+              "left": false,
               "top": false,
-              "bottom": true
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
             },
             "vCenter": false,
             "hCenter": false
@@ -286,21 +287,33 @@
         }
       },
       "order": [
-        "0",
         "1"
       ]
     },
-    "layout_9": {
+    "layout_10": {
+      "type": "FIXED",
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_18",
-          "bbox": {},
-          "setting": {}
+          "widgetId": "widget_21",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
         }
       },
-      "type": "FIXED",
-      "label": "Controller layout",
       "order": [
         "0"
       ]
@@ -3764,68 +3777,52 @@
         }
       }
     },
-    "widget_18": {
+    "widget_21": {
       "uri": "widgets/ae-bulk-asset-select/",
       "version": "1.0.0",
       "label": "AE Bulk Asset Select",
       "config": {},
-      "id": "widget_18",
+      "id": "widget_21",
       "useMapWidgetIds": [
         "widget_1"
       ]
     },
-    "widget_20": {
-      "uri": "widgets/common/controller/",
+    "widget_22": {
+      "uri": "widgets/common/navigator/",
       "version": "1.21.0",
-      "inControllerUx": "offPanel",
-      "label": "Widget Controller",
+      "label": "Views Navigation 2",
       "config": {
-        "behavior": {
-          "onlyOpenOne": true,
-          "openStarts": [],
-          "displayType": "STACK",
-          "vertical": false,
-          "size": {},
-          "arrangement": "fixed"
+        "data": {
+          "type": "AUTO",
+          "section": "section_2",
+          "views": []
         },
-        "appearance": {
-          "space": 0,
+        "display": {
           "advanced": true,
-          "card": {
-            "showLabel": true,
-            "labelGrowth": 10,
-            "avatar": {
-              "type": "primary",
-              "size": "custom",
-              "shape": "rectangle",
-              "buttonSize": 50,
-              "iconSize": 25
-            },
-            "variant": {
+          "vertical": false,
+          "type": "nav",
+          "navStyle": "default",
+          "standard": {
+            "scrollable": true,
+            "textAlign": "center",
+            "gap": "0px",
+            "showText": true,
+            "showIcon": false,
+            "iconPosition": "start"
+          },
+          "variant": {
+            "item": {
               "default": {
-                "bg": "",
-                "boxShadow": {
-                  "offsetX": "0px",
-                  "offsetY": "0px",
-                  "blur": "10px",
-                  "spread": "10px",
-                  "color": "var(--sys-color-secondary-text)"
-                },
-                "color": "var(--ref-palette-neutral-1300)",
                 "bold": true
               },
-              "active": {},
-              "hover": {}
+              "active": {
+                "underline": true
+              }
             }
           }
         }
       },
-      "id": "widget_20",
-      "layouts": {
-        "controller": {
-          "LARGE": "layout_9"
-        }
-      }
+      "id": "widget_22"
     }
   },
   "widgetsManifest": {},
@@ -3846,9 +3843,16 @@
     },
     "view_3": {
       "id": "view_3",
-      "label": "View",
+      "label": "Find an Asset",
       "layout": {
         "LARGE": "layout_8"
+      }
+    },
+    "view_4": {
+      "id": "view_4",
+      "label": "Select Multiple Assets",
+      "layout": {
+        "LARGE": "layout_10"
       }
     }
   },
@@ -3866,7 +3870,8 @@
       "id": "section_2",
       "label": "Section 2",
       "views": [
-        "view_3"
+        "view_3",
+        "view_4"
       ],
       "defaultView": "view_3"
     }
@@ -4168,7 +4173,7 @@
     "type": "Web Experience",
     "thumbnail": null
   },
-  "timestamp": 1789582637024,
+  "timestamp": 1789584420994,
   "sharedThemeVariables": {
     "header": {
       "bg": "#ffffff",
@@ -4826,16 +4831,13 @@
       "index": 0
     }
   },
-  "controllerPanels": {
-    "widget_20": {
-      "position": "TOP_LEFT",
-      "width": "360px",
-      "height": "430px",
-      "offsetX": 0,
-      "offsetY": 0,
-      "widthMode": "CUSTOM",
-      "heightMode": "CUSTOM"
+  "controllerPanels": {},
+  "historyLabels": {
+    "views": {
+      "view_3": [
+        "View"
+      ]
     }
   },
-  "publishTimestamp": 1789582672767
+  "publishTimestamp": 1789584609912
 }
