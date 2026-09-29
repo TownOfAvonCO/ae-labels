@@ -546,7 +546,8 @@
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a058550-layer-54-19faee133f9-layer-53",
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a109f1e-layer-58-19f2447177a-layer-58",
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a109f1e-layer-58-19f24471779-layer-57",
-              "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a109f1e-layer-58-19f24471777-layer-56"
+              "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a109f1e-layer-58-19f24471777-layer-56",
+              "widget_1-29074bab7513407e8e720d9edf9137d6-1a0edd9afef-layer-59"
             ]
           }
         },
@@ -4164,16 +4165,9 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "AE Map Labels",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com"
   },
-  "timestamp": 1789584420994,
+  "timestamp": 1790703184190,
   "sharedThemeVariables": {
     "header": {
       "bg": "#ffffff",
@@ -4831,13 +4825,5 @@
       "index": 0
     }
   },
-  "controllerPanels": {},
-  "historyLabels": {
-    "views": {
-      "view_3": [
-        "View"
-      ]
-    }
-  },
-  "publishTimestamp": 1789584609912
+  "controllerPanels": {}
 }
