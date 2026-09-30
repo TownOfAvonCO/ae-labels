@@ -317,6 +317,34 @@
       "order": [
         "0"
       ]
+    },
+    "layout_11": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_23",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
     }
   },
   "exbVersion": "1.21.0",
@@ -547,7 +575,10 @@
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a109f1e-layer-58-19f2447177a-layer-58",
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a109f1e-layer-58-19f24471779-layer-57",
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a109f1e-layer-58-19f24471777-layer-56",
-              "widget_1-29074bab7513407e8e720d9edf9137d6-1a0edd9afef-layer-59"
+              "widget_1-29074bab7513407e8e720d9edf9137d6-1a0edd9afef-layer-59",
+              "widget_1-29074bab7513407e8e720d9edf9137d6-1a0edd9afef-layer-59-1a0edd9b1ec-layer-62",
+              "widget_1-29074bab7513407e8e720d9edf9137d6-1a0edd9afef-layer-59-1a0edd9b1ec-layer-61",
+              "widget_1-29074bab7513407e8e720d9edf9137d6-1a0edd9afef-layer-59-1a0edd9b1ec-layer-60"
             ]
           }
         },
@@ -3824,6 +3855,18 @@
         }
       },
       "id": "widget_22"
+    },
+    "widget_23": {
+      "uri": "widgets/ae-asset-lasso/",
+      "version": "1.0.0",
+      "label": "Asset Lasso",
+      "config": {
+        "assetIdField": "AssetID"
+      },
+      "id": "widget_23",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
     }
   },
   "widgetsManifest": {},
@@ -3844,16 +3887,23 @@
     },
     "view_3": {
       "id": "view_3",
-      "label": "Find an Asset",
+      "label": "Search",
       "layout": {
         "LARGE": "layout_8"
       }
     },
     "view_4": {
       "id": "view_4",
-      "label": "Select Multiple Assets",
+      "label": "Search Multiple ",
       "layout": {
         "LARGE": "layout_10"
+      }
+    },
+    "view_5": {
+      "id": "view_5",
+      "label": "Selector Tool",
+      "layout": {
+        "LARGE": "layout_11"
       }
     }
   },
@@ -3872,7 +3922,8 @@
       "label": "Section 2",
       "views": [
         "view_3",
-        "view_4"
+        "view_4",
+        "view_5"
       ],
       "defaultView": "view_3"
     }
@@ -4165,16 +4216,9 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "AE Map Labels",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com"
   },
-  "timestamp": 1790703184190,
+  "timestamp": 1790725948390,
   "sharedThemeVariables": {
     "header": {
       "bg": "#ffffff",
@@ -4832,13 +4876,5 @@
       "index": 0
     }
   },
-  "controllerPanels": {},
-  "historyLabels": {
-    "views": {
-      "view_3": [
-        "View"
-      ]
-    }
-  },
-  "publishTimestamp": 1790703185025
+  "controllerPanels": {}
 }
