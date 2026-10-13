@@ -544,7 +544,6 @@
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a00047d-layer-50-19e88fcf76d-layer-34",
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a00047d-layer-50-19e88fcf76d-layer-33",
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a00047d-layer-50-19e88fcf76d-layer-32",
-              "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a00047d-layer-50-19e88fcf76d-layer-30",
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a00047d-layer-50-19e88fcf76d-layer-29",
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a00047d-layer-50-19e88fcf76c-layer-28",
               "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a012de9-layer-51-19e88fce862-layer-26",
@@ -579,7 +578,13 @@
               "widget_1-29074bab7513407e8e720d9edf9137d6-1a0edd9afef-layer-59",
               "widget_1-29074bab7513407e8e720d9edf9137d6-1a0edd9afef-layer-59-1a0edd9b1ec-layer-62",
               "widget_1-29074bab7513407e8e720d9edf9137d6-1a0edd9afef-layer-59-1a0edd9b1ec-layer-61",
-              "widget_1-29074bab7513407e8e720d9edf9137d6-1a0edd9afef-layer-59-1a0edd9b1ec-layer-60"
+              "widget_1-29074bab7513407e8e720d9edf9137d6-1a0edd9afef-layer-59-1a0edd9b1ec-layer-60",
+              "widget_1-29074bab7513407e8e720d9edf9137d6-1a0ef518ec4-layer-74-1a0ef518f56-layer-77",
+              "widget_1-29074bab7513407e8e720d9edf9137d6-1a0ef518ec4-layer-74-1a0ef518f56-layer-76",
+              "widget_1-29074bab7513407e8e720d9edf9137d6-1a0ef518ec4-layer-74-1a0ef518f56-layer-75",
+              "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a109f1e-layer-58-1a0c585dd26-layer-59",
+              "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a109f1e-layer-58-1a0c581241e-layer-57",
+              "widget_1-29074bab7513407e8e720d9edf9137d6-19e8a00047d-layer-50-19e88fcf76d-layer-30"
             ]
           }
         },
@@ -600,7 +605,7 @@
       "version": "1.21.0",
       "label": "Legend",
       "config": {
-        "legendMode": "show-visible"
+        "legendMode": "show-within-extent"
       },
       "id": "widget_10",
       "useMapWidgetIds": [
@@ -4219,7 +4224,7 @@
   "attributes": {
     "portalUrl": "https://AVON-COLORADO.maps.arcgis.com"
   },
-  "timestamp": 1791309566265,
+  "timestamp": 1791920988927,
   "sharedThemeVariables": {
     "header": {
       "bg": "#ffffff",
